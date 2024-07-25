@@ -1,0 +1,50 @@
+{
+  "app": {
+    "extNotValid": "FIle is not valid:",
+    "input": "Input File/Folder",
+    "model": "Model",
+    "output": "Output File/Folder",
+    "run": "Run",
+    "scale": "Scale",
+    "themeSettingsText": {
+      "backgroundColor": "Background Color",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "maxWidth": "Max Width Of Image",
+      "minWidth": "Min Width Of Image",
+      "primaryColor": "Primary Color",
+      "realTime": "Real-time Effect",
+      "saveAndRestart": "Save and Restart",
+      "secondaryColor": "Secondary Color",
+      "title": "UI Settings"
+    },
+    "tooltips": {
+      "run": "Run",
+      "settings": "Settings",
+      "theme": "UI Settings"
+    }
+  },
+  "settings": {
+    "exeThread": "(experimental)Realesrgan Program Thread",
+    "gpuId": "GPU ID",
+    "imageFormat": "Image Format",
+    "keepDirectoryStructure": "Keep Directory Structure",
+    "logOutput": "Log Output",
+    "modelPath": "Model Path",
+    "realtime": "Settings change is real-time effect",
+    "resetConfirm": "Are you sure to reset settings?",
+    "selectFolder": "Select Folder",
+    "showLog": "Show Output Log",
+    "threadCount": "Thread Count(load:proc:save)",
+    "tileSize": "Tile Size",
+    "title": "Settings",
+    "tooltips": {
+      "reset": "Reset Settings",
+      "saveAndClose": "Save and Close"
+    },
+    "ttaMode": "Enable TTA Mode",
+    "verboseOutput": "Verbose Output"
+  }
+}

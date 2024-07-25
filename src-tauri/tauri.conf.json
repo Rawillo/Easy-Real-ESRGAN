@@ -1,0 +1,89 @@
+{
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "Easy Real-ESRGAN",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "fs": {
+        "all": true,
+        "scope": [
+          "$RESOURCE/*",
+          "$RESOURCE/resources/*",
+          "$RESOURCE/resources/models/*"
+        ]
+      },
+      "path": {
+        "all": true
+      },
+      "dialog": {
+        "all": true
+      },
+      "window": {
+        "all": true
+      },
+      "shell": {
+        "all": true,
+        "execute": true,
+        "sidecar": true,
+        "open": true,
+        "scope": [
+          {
+            "name": "realesrgan",
+            "cmd": "$RESOURCE/resources/realesrgan.exe",
+            "args": true
+          }
+        ]
+      },
+      "protocol": {
+        "all": true,
+        "asset": true,
+        "assetScope": [
+          "*","**"
+        ]
+      }
+    },
+    "windows": [
+      {
+        "title": "realesrgan-tauri",
+        "width": 800,
+        "height": 600,
+        "minWidth": 500,
+        "minHeight": 600
+      }
+    ],
+    "security": {
+      "csp": "default-src blob: data: filesystem: ws: http: https: 'unsafe-eval' 'unsafe-inline' 'self' img-src: 'self'; script-src 'unsafe-eval' asset: https://asset.localhost"
+    },
+    "bundle": {
+      "resources": [
+        "resources/*"
+      ],
+      "active": true,
+      "targets": "all",
+      "identifier": "cn.Rawillo.realesrgan",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "windows": {
+        "wix": {
+          "language": ["zh-CN","en-US"]
+        },
+        "nsis": {
+          "languages": ["SimpChinese","English"]
+        }
+      }
+    }
+  }
+}
