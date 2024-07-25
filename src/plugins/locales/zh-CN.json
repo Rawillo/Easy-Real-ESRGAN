@@ -1,0 +1,50 @@
+{
+  "app": {
+    "extNotValid": "文件不是可用的：",
+    "input": "输入文件/文件夹",
+    "model": "模型",
+    "output": "输出文件/文件夹",
+    "run": "运行",
+    "scale": "放大倍数",
+    "themeSettingsText": {
+      "backgroundColor": "背景色",
+      "cancel": "取消",
+      "confirm": "确定",
+      "darkMode": "暗色模式",
+      "lightMode": "亮色模式",
+      "maxWidth": "图片宽度最大值",
+      "minWidth": "图片宽度最小值",
+      "primaryColor": "主色",
+      "realTime": "实时生效",
+      "saveAndRestart": "保存并重启",
+      "secondaryColor": "辅色",
+      "title": "界面设置"
+    },
+    "tooltips": {
+      "run": "运行",
+      "settings": "设置",
+      "theme": "界面设置"
+    }
+  },
+  "settings": {
+    "exeThread": "（实验性）Realesrgan运行线程数",
+    "gpuId": "GPU ID",
+    "imageFormat": "图像格式",
+    "keepDirectoryStructure": "保持目录结构",
+    "logOutput": "输出",
+    "modelPath": "模型路径",
+    "realtime": "本页设置实时生效",
+    "resetConfirm": "确定重置设置吗？",
+    "selectFolder": "选择文件夹",
+    "showLog": "查看输出",
+    "threadCount": "线程数（load:proc:save）",
+    "tileSize": "拆分大小",
+    "title": "设置",
+    "tooltips": {
+      "reset": "重置设置",
+      "saveAndClose": "保存并关闭"
+    },
+    "ttaMode": "启用 TTA 模式",
+    "verboseOutput": "详细输出"
+  }
+}
